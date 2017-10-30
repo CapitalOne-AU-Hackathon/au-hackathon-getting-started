@@ -4,8 +4,8 @@
 1. Each team is required to create a Slack user and join the workspace au-hackathon-2017 https://join.slack.com/t/au-hackathon-2017/shared_invite/enQtMjY1MDM0NDg0NTgyLTk3ODBjZTExNDAyMDY0ODM5Y2VlMjYxMjQxNWNhNDE5ODA5NmJmNzVlNDBkN2EwNGU3M2UwMzkwMzg4NTAxMTc
 2. To get AWS credentials direct message: AU-Hackathon-Direct upon arrival
 3. Different channels and their purpose: 
-+ ineedhelp: Request help from the AU Hackathon staff
-+ announcements: Channel strictly for event announcements
++ #ineedhelp: Request help from the AU Hackathon staff
++ #announcements: Channel strictly for event announcements
 
 ### API Documentation
 Documentation on the different APIs through SwaggerHub:
