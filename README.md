@@ -38,3 +38,7 @@ https://github.com/CapitalOne-AU-Hackathon/au-hackathon-streaming-app
 Data to be used:
 
 https://s3.amazonaws.com/auhackathon/Original+Mockaroo_Data_1/au_hackathon_final.json
+
+
+![schedule](https://raw.githubusercontent.com/CapitalOne-AU-Hackathon/au-hackathon-getting-started/master/hackathon_schedule.png)
+
