@@ -2,30 +2,27 @@
 
 ## Getting Set Up
 
-### Slack: (needs to be fixed w/ BeMyApp stuff)
-1. Each team is required to create a Slack user and join the workspace au-hackathon-2017 https://join.slack.com/t/au-hackathon-2017/shared_invite/enQtMjY1MDM0NDg0NTgyLTk3ODBjZTExNDAyMDY0ODM5Y2VlMjYxMjQxNWNhNDE5ODA5NmJmNzVlNDBkN2EwNGU3M2UwMzkwMzg4NTAxMTc
-2. To get AWS credentials direct message: AU-Hackathon-Direct upon arrival
-3. Different channels and their purpose: 
-+ #ineedhelp: Request help from the AU Hackathon staff
+### Slack and BeMyApp
+1. Each team is welcome to create a Slack user and join the workspace au-hackathon-2017 https://join.slack.com/t/au-hackathon-2017/shared_invite/enQtMjY1MDM0NDg0NTgyLTk3ODBjZTExNDAyMDY0ODM5Y2VlMjYxMjQxNWNhNDE5ODA5NmJmNzVlNDBkN2EwNGU3M2UwMzkwMzg4NTAxMTc
+2. Different channels and their purpose: 
++ #ineedhelp: Request help from the AU Hackathon staff if mentor can't be found
 + #announcements: Channel strictly for event announcements
+3. BeMyApp is available to all participants to post questions and read forum answers
+
 
 ### Creating Instances
-Each team is allowed a max of **three** instances of size m4.large
+Each team must **find a tech mentor** in order to create EMR instances and recieve AWS access credentials. 
 
-Each instances must be tagged with CapitalOneAUHackathon, value = true
+Each team is responsible for instances created and are only allowed a **max** of three instances per team.
 
-Each instance must be tagged with the team name
-
-If the team needs to go over 3 instances please message the slack channel ineedhelp
-
-***Note: All instances that are not tagged or go over the limit without a reason will be terminated without notice***
+***Note: No instances will be created between midnight and 9 AM***
 
 ## Learning Intents
 
 ### APIs
 Documentation on the different APIs through SwaggerHub:
 
-https://app.swaggerhub.com/apis/AU_HACKATHON8
+https://github.com/CapitalOne-AU-Hackathon/au-hackathon-getting-started/blob/master/API_Getting_Started.md
 
 ### Streaming 
 Deploying onto AWS EMR:
