@@ -190,28 +190,27 @@ https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/rewards
 
 **Add New Account**
 
-https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/add_new_account
+https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/add-account
 ```
 {
     "team_name" : required,
-    "customer_id" : required 
 }
 ```
 <br></br>
 
 **Add Authorized User**
 
-https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/add_AU
+https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/add-au
 ```
 {
     "team_name" : required,
-    "customer_id" : required 
+    "account_id" : required 
 }
 ```
 <br></br>
 **Update Customer**
 
-https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/update_customer
+https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/update-customer
 ```
 {
     "team_name" : required,
