@@ -2,6 +2,16 @@
 
 The following is examples of how to use and test the APIs 
 
+## Table of Contents
+
+### [API Calls](#api-calls)
+### [Server Tweaks](#server-tweaks-1)
+### [Access Customizer Setup](#access-customizer-setup-1)
+### [QA End-to-End Testing Setup](#qa-end-to-end-testing-setup-1)
+### [QA Testing Execution](#qa-testing-execution)
+### [Deeplink Testing](#deeplink-testing-1)
+### [Testing Modules](#testing-modules-1)
+
 ## API Calls
 
 **List all accounts ids:**
@@ -397,7 +407,58 @@ Sample Response:
 ]
  ```
 
+**Add new account:**
+
+POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/add-account
+
+Body:
+```
+{
+    "team_name" : required,
+}
+```
+
+**Add Authorized User**
+
+POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/add-au
+
+Body:
+```
+{
+    "team_name" : required,
+    "account_id" : required 
+}
+```
+
+**Update Customer**
+
+POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/update-customer
+
+Body:
+```
+{
+    "team_name" : required,
+    "customer_id" : required,
+    "first_name" : optional,
+    "last_name" : optional,
+    "address" : optional,
+    "city" : optional,
+    "state" : optional,
+    "zipcode" : optional,
+    "is_married" : optional,
+    "phone_number" : optional,
+    "email" : optional
+}
+```
+
 **Full API Documentation is available on SwaggerHub**
+
+---
+
+## Swagger 
+The Swagger files provide documentation on all of the APIs. Users can test the APIs directly using SwaggerHub
+
+https://app.swaggerhub.com/apis/AU_HACKATHON8
 
 ---
 ## Data Formatting for the APIs
@@ -479,104 +540,3 @@ Transaction id :  0001-0360
 
 #### Merchants list: https://s3.amazonaws.com/auhackathon-data/merchant_list.txt ####
 #### Merchant codes: https://s3.amazonaws.com/auhackathon-data/MCC_Groups.xlsx ####
-
-
----
-
-## Swagger 
-The Swagger files provide documentation on all of the APIs. Users can test the APIs directly using SwaggerHub
-
-https://app.swaggerhub.com/apis/AU_HACKATHON8
-
----
-
-## Postman
-
-### APIs (READ ONLY) Examples with Postman Endpoints ###
-
-**TYPE: POST**
-
-**BODY :- RAW**
-<br></br>
-**Customer**
-
-https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/customers
-```
-{
-    "customer_id" : 130010000
-}
-```
- 
-<br></br> 
-**Transactions**
-
-https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/transactions
-```
-{
-    "card_number" : "502043092240039629",
-    "date_from" : "11/1/2016"
-}
-```
-
-<br></br> 
-**Accounts**
-
-https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/accounts
-```
-{
-    "account_id" : 100300000
-}
-```
-<br></br>
-**Payments**
-
-https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/payments
-```
-{
-    "account_id" : 100200000
-}
-```
-<br></br> 
-**Rewards**
-
-https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/rewards
-```
-{
-    "account_id" : 100200000,
-    "date_from" : "03/2017",
-    "date_to" : "05/2017"
-}
-```
----
-
-### API (POST) ###
-
-**Add New Account**
-
-https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/add-account
-```
-{
-    "team_name" : required,
-}
-```
-<br></br>
-
-**Add Authorized User**
-
-https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/add-au
-```
-{
-    "team_name" : required,
-    "account_id" : required 
-}
-```
-<br></br>
-**Update Customer**
-
-https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/update-customer
-```
-{
-    "team_name" : required,
-    "customer_id" : required 
-}
-```
