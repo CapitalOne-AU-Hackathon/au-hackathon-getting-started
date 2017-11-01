@@ -26,7 +26,7 @@ Body:
     }
 ``` 
 
-**List credit card numbers for account:**
+**List credit card numbers for an account:**
 
 POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/accounts
 
