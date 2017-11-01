@@ -10,7 +10,9 @@ POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/ac
 
 Body:
 ```
-    {}
+    {
+    
+    }
 ```
 
 **List all customer ids:**
@@ -19,7 +21,9 @@ POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/cu
 
 Body:               
 ```
-    {}
+    {
+    
+    }
 ``` 
 
 **List credit card numbers for account:**
@@ -28,7 +32,9 @@ POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/ac
 
 Body:               
 ```
-   {"account_id" : 100700000}
+   {
+   "account_id" : 100700000
+   }
  ```
 
 
