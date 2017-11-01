@@ -116,6 +116,11 @@ Transaction id :  0001-0360
 
 "Spark Classic" = 1%
 
+
+#### Merchants list: https://s3.amazonaws.com/auhackathon-data/merchant_list.txt ####
+#### Merchant codes: https://s3.amazonaws.com/auhackathon-data/MCC_Groups.xlsx ####
+
+
 ---
 
 ## Swagger 
@@ -144,8 +149,6 @@ https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/custome
  
 <br></br> 
 **Transactions**
-
-A list of all merchants: https://s3.amazonaws.com/auhackathon-data/merchant_list.txt
 
 https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/transactions
 ```
