@@ -8,6 +8,8 @@ The following is examples of how to use and test the APIs
 ### [Swagger](#swagger)
 ### [Data Formatting for the APIs](#data-formatting-for-the-apis)
 
+---
+
 ## API Calls
 
 **List all accounts ids:**
