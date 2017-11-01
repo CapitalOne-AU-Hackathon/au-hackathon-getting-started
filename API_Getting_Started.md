@@ -145,6 +145,8 @@ https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/custome
 <br></br> 
 **Transactions**
 
+A list of all merchants: https://s3.amazonaws.com/auhackathon-data/merchant_list.txt
+
 https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/transactions
 ```
 {
