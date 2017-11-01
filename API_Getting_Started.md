@@ -2,6 +2,38 @@
 
 The following is examples of how to use and test the APIs 
 
+## API Calls
+
+**List all accounts:**
+
+POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/accounts
+
+Body:
+```
+    {}
+```
+
+**List all customer ids:**
+
+POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/customers
+
+Body:               
+```
+    {}
+``` 
+
+**List credit card numbers for account:**
+
+POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/accounts
+
+Body:               
+```
+   {"account_id" : 100700000}
+ ```
+
+
+
+---
 ## Data for the APIs
 The following is data limitations for the APIs
 
