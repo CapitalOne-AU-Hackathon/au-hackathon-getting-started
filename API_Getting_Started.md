@@ -10,9 +10,7 @@ POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/ac
 
 Body:
 ```
-    {
-    
-    }
+    {}
 ```
 
 **List all customer ids:**
@@ -21,9 +19,7 @@ POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/cu
 
 Body:               
 ```
-    {
-    
-    }
+    {}
 ``` 
 
 **List account info:**
@@ -33,7 +29,7 @@ POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/ac
 Body:               
 ```
    {
-   "account_id" : 100700000
+       "account_id" : 100700000
    }
  ```
 Sample Response:
@@ -81,7 +77,7 @@ POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/cu
 Body:               
 ```
    {
-   "customer_id" : 100720000
+       "customer_id" : 100720000
    }
  ```
 Sample Response:
@@ -115,7 +111,7 @@ POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/tr
 Body:               
 ```
    {
-   "account_id" : 100700000
+       "account_id" : 100700000
    }
  ```
 Sample Response:
@@ -196,7 +192,7 @@ POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/re
 Body:               
 ```
    {
-   "account_id" : 100700000
+       "account_id" : 100700000
    }
  ```
 Sample Response:
@@ -302,7 +298,7 @@ POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/pa
 Body:               
 ```
    {
-   "account_id" : 100700000
+       "account_id" : 100700000
    }
  ```
 Sample Response:
