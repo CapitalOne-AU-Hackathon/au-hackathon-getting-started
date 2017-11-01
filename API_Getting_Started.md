@@ -191,6 +191,8 @@ https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/rewards
 
 ### API (POST) ###
 
+**Note: Transactions are automatically added for customers, adding transactions is not available for these apis**
+
 **Add New Account**
 
 https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/add-account
