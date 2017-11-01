@@ -5,12 +5,8 @@ The following is examples of how to use and test the APIs
 ## Table of Contents
 
 ### [API Calls](#api-calls)
-### [Server Tweaks](#server-tweaks-1)
-### [Access Customizer Setup](#access-customizer-setup-1)
-### [QA End-to-End Testing Setup](#qa-end-to-end-testing-setup-1)
-### [QA Testing Execution](#qa-testing-execution)
-### [Deeplink Testing](#deeplink-testing-1)
-### [Testing Modules](#testing-modules-1)
+### [Swagger](#swagger)
+### [Data Formatting for the APIs](#data-formatting-for-the-apis)
 
 ## API Calls
 
