@@ -37,10 +37,10 @@ Body:
    }
  ```
 
-
+**Full API Documentation is available on SwaggerHub**
 
 ---
-## Data for the APIs
+## Data Formatting for the APIs
 The following is data limitations for the APIs
 
 **Account ID, Customer ID or AU_ID, Transaction ID**
@@ -116,10 +116,14 @@ Transaction id :  0001-0360
 
 "Spark Classic" = 1%
 
+---
+
 ## Swagger 
 The Swagger files provide documentation on all of the APIs. Users can test the APIs directly using SwaggerHub
 
 https://app.swaggerhub.com/apis/AU_HACKATHON8
+
+---
 
 ## Postman
 
