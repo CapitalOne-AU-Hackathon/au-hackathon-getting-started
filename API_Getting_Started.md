@@ -12,6 +12,8 @@ The following is examples of how to use and test the APIs
 
 ## API Calls
 
+**There are 5 read only APIs: Transactions, Customers, Accounts, Rewards, Payments. There are 3 writable APIs: Update Customer, Add Account, Add Authorized User**
+
 **List all accounts ids:**
 
 POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/accounts
