@@ -407,12 +407,9 @@ Sample Response:
 ]
  ```
 
-### Steps for adding a new authorized user ###
-1. Create a new account using your team name 
-2. Use the account id returned from creating an account to create the new authorized user
-3. Transactions for the authorized user will **automatically** be posted to the account
-
 **Add new account:**
+
+Use this API to create a new sandbox account record. You can add authorized users (/add-au) for this sandbox account or modify customer (/update-customer) data.
 
 POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/add-account
 
@@ -425,6 +422,13 @@ Body:
 
 **Add authorized user**
 
+Use this API to add authorized users to account records that belong to your team. Use the account id from your sandbox account and the same team_name for this account to create a new authorized user.
+
+### Steps for adding a new authorized user ###
+1. Create a new account using your team name 
+2. Use the account id returned from creating an account to create the new authorized user
+3. Transactions for the authorized user will **automatically** be added to the account
+
 POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/add-au
 
 Body:
@@ -436,6 +440,8 @@ Body:
 ```
 
 **Update customer**
+
+Use this API to update a customer record. The customer record must be part of the sandbox account with the same team_name as the request.
 
 POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/update-customer
 
