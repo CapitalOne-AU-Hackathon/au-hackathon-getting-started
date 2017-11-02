@@ -407,6 +407,11 @@ Sample Response:
 ]
  ```
 
+### Steps for adding a new authorized user ###
+1. Create a new account using your team name 
+2. Use the account id returned from creating an account to create the new authorized user
+3. Transactions for the authorized user will **automatically** be posted to the account
+
 **Add new account:**
 
 POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/add-account
@@ -418,7 +423,7 @@ Body:
 }
 ```
 
-**Add Authorized User**
+**Add authorized user**
 
 POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/add-au
 
@@ -430,7 +435,7 @@ Body:
 }
 ```
 
-**Update Customer**
+**Update customer**
 
 POST https://3hkaob4gkc.execute-api.us-east-1.amazonaws.com/prod/au-hackathon/update-customer
 
