@@ -15,7 +15,7 @@ Each team must **find a tech mentor** in order to create EMR instances and recie
 
 Each team is responsible for instances created and are only allowed a **max** of three instances per team.
 
-***Note: No instances will be created between midnight and 9 AM***
+***Note: No credentials will be given between midnight and 9 AM***
 
 ## Learning Intents
 
