@@ -5,7 +5,7 @@ The following is examples of how to use and test the APIs
 ## Table of Contents
 
 ### [API Calls](#api-calls)
-### [Swagger](#Swagger)
+### [Swagger](#swagger)
 ### [Data Formatting for the APIs](#data-formatting-for-the-apis)
 
 ---
@@ -466,7 +466,7 @@ Body:
 
 ---
 
-## Swagger 
+## Swagger <a name="swagger">
 The Swagger files provide documentation on all of the APIs. Users can test the APIs directly using SwaggerHub
 
 https://app.swaggerhub.com/apis/AU_HACKATHON8
