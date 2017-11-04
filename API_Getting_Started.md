@@ -5,7 +5,7 @@ The following is examples of how to use and test the APIs
 ## Table of Contents
 
 ### [API Calls](#api-calls)
-### [Swagger] https://swaggerhub.com/apis/au_hackathon8 
+### [Swagger](#swagger)
 ### [Data Formatting for the APIs](#data-formatting-for-the-apis)
 
 ---
